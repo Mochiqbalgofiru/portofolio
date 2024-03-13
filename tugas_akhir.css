@@ -1,0 +1,384 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.h-700 {
+    height: 700px;
+}
+
+.bg-img {
+    background-image: url('danilla.jpg');
+    position: relative;
+    width: 100%;
+    height: 75vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center middle;
+}
+
+.bg-img::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-family:sans-serif;
+}
+
+.content h2 span {
+    color: #0077b6;
+    font-family: sans-serif;
+}
+
+.content button {
+    padding: 12px 22px;
+    margin-top: 30px;
+    font-size: 22px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color:#0077b6;
+    border-radius: 20px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.5s;
+}
+
+.content button:hover {
+    opacity: 1;
+}
+
+.bg-white {
+    background-color: rgb(210, 208, 208);
+}
+
+* html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color:rgb(24, 22, 19);
+    display: flex;
+    position: sticky;
+    justify-content:space-between;
+    padding: 1rem;
+    top: 0;
+    z-index: 9999;
+}
+
+.position {
+    border-radius: 70px;
+    width: 50px;
+    height: 40px;
+    padding: 0px;
+    margin: 5px;
+    position: sticky;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Lucida Sans';
+    color: white;
+    font-weight: 300;
+    padding: 8px 0;
+    transition: all;
+    transition-duration: 1s;
+    border-bottom: 1px solid rgba(255, 228, 196, 0);
+}
+
+nav ul li a:hover {
+    border-bottom: 1px solid bisque;
+    color: #0077b6;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.menu-icon {
+    font-size: 26px;
+    display: none;
+}
+
+#about-me {
+    padding: 2em 0;
+}
+
+div {
+    text-align: center;
+}
+
+.section-introduction img {
+    margin: 20px;
+    height: 200px;
+    border-radius: 90%;
+    position:relative;
+    vertical-align: middle;
+}
+
+.content-perkenalan {
+    font-size: 1.2em;
+    width: 80%;
+    max-width: 24em;
+    margin: 1em auto;
+    text-align: justify;
+}
+
+#pelatihan {
+    padding: 2em 0;
+}
+
+.section-pelatihan img {
+    border-radius: 90%;
+    height: 200px;
+    margin: 10px;
+    position: relative;
+    vertical-align: left;
+}
+
+.introduction {
+    font-size: 1.2em;
+    width: 80%;
+    max-width: 24em;
+    margin: 1em auto;
+    text-align: justify;
+}
+
+#pemograman {
+    padding: 2em 0;
+}
+
+.bahasa-pemograman img {
+    border-radius: 100%;
+    height: 200px;
+    margin:10px;
+    position: relative;
+}
+
+.pembahasan {
+    font-size: 1.2em;
+    width: 80%;
+    max-width: 24em;
+    margin: 1em auto;
+    text-align: justify;
+}
+
+.tittle-portofolio {
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+
+.container img {
+    height: 150px;
+    margin: 10px;
+}
+
+hr {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.tittle-contact {
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+
+.form-contact-us, .contact-info {
+    text-align: center;
+}
+
+form {
+    margin-top: 0em;
+}
+
+.inputan {
+    width: 85%;
+    text-align: left;
+    display: block;
+    margin: 0 auto;
+}
+
+.form-contact-us, .contact-info {
+    width: 100%;
+}
+
+.inputan > label {
+    display: block;
+    font-size: 1.2em;
+}
+
+label {
+    cursor: default;
+}
+
+.inputan > input, .inputan > textarea {
+    width: 80%;
+    margin: .3em 0;
+    font-size: 1em;
+}
+
+input[type="text" i] {
+    padding-block: 1px;
+    padding-inline: 1px;
+}
+
+input:not([type="file" i], [type="image" i], [type="checkbox" i], [type="radio" i]) {
+}
+
+input[type="email" i] {
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+
+.btn-kirim {
+    width: 50%;
+    margin: 1em 0;
+    border: none;
+    background-color: teal;
+    color: white;
+    font-size: 1em;
+    padding: .5em 0;
+}
+
+.form-contact-us, .contact-info {
+    text-align: center;
+    width: 100%;
+}
+
+a:-webkit-any-link {
+    cursor: pointer;
+}
+
+h1 h2 h3 {
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.contact-icon {
+    width: 100px;
+    margin: 2em;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+div .contact-icon-bundler img {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+}
+
+.contact-desktop {
+    display: inline-block;
+    height: 700px;
+    vertical-align: middle;
+}
+
+.contact-info img {
+    height: 50px;
+    width: 40px;
+    margin: 25px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(24, 22, 19);
+    color: white;
+    font-family: 'Lucida Sans';
+    margin-top: 2em;
+    padding: 1.5em 0;
+}
+@media only screen and (max-width : 768px) {
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .menu-icon {
+        display: flex;
+        align-items: center;
+        color: #0077b6;
+    
+    }
+}
+
+@media only screen and (min-width: 600px) {
+.form-contact-us, .contact-info {
+    width: 49.5%;
+    display: inline-block;
+    vertical-align: top;
+    }
+}   
+
+@media only screen and (min-width: 600px) {
+.non-desktop {
+    display: none;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+.contact-info > div {
+    display: block;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+.contact-icon-bundler {
+    display: inline-block;
+    min-width: 300px;
+    text-decoration: none;
+    color: black;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+.contact-icon {
+    display: inline-block;
+    vertical-align: middle;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+.contact-desktop {
+    display: inline-block;
+    vertical-align: middle;
+    }
+}
+
